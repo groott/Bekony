@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABEB8A91FF443DB005FDF15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB8A81FF443DB005FDF15 /* AppDelegate.swift */; };
+		CABEB8AB1FF443DB005FDF15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB8AA1FF443DB005FDF15 /* ViewController.swift */; };
+		CABEB8AE1FF443DB005FDF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEB8AC1FF443DB005FDF15 /* Main.storyboard */; };
+		CABEB8B01FF443DC005FDF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEB8AF1FF443DC005FDF15 /* Assets.xcassets */; };
+		CABEB8B31FF443DC005FDF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEB8B11FF443DC005FDF15 /* LaunchScreen.storyboard */; };
+		CABEB8BE1FF443DC005FDF15 /* BekonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB8BD1FF443DC005FDF15 /* BekonyTests.swift */; };
+		CABEB8C91FF443DC005FDF15 /* BekonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB8C81FF443DC005FDF15 /* BekonyUITests.swift */; };
+		CABEB8D81FF44F15005FDF15 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABEB8D71FF44F15005FDF15 /* EstimoteSDK.framework */; };
+		CABEB8DA1FF44F3D005FDF15 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABEB8D91FF44F3C005FDF15 /* SystemConfiguration.framework */; };
+		CABEB8DC1FF44F46005FDF15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABEB8DB1FF44F46005FDF15 /* CoreGraphics.framework */; };
+		CABEB8DE1FF44F50005FDF15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABEB8DD1FF44F50005FDF15 /* UIKit.framework */; };
+		CABEB8E01FF44F59005FDF15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABEB8DF1FF44F59005FDF15 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABEB8BA1FF443DC005FDF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABEB89D1FF443DB005FDF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABEB8A41FF443DB005FDF15;
+			remoteInfo = Bekony;
+		};
+		CABEB8C51FF443DC005FDF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABEB89D1FF443DB005FDF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABEB8A41FF443DB005FDF15;
+			remoteInfo = Bekony;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CABEB8A51FF443DB005FDF15 /* Bekony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bekony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABEB8A81FF443DB005FDF15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CABEB8AA1FF443DB005FDF15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CABEB8AD1FF443DB005FDF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABEB8AF1FF443DC005FDF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABEB8B21FF443DC005FDF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABEB8B41FF443DC005FDF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABEB8B91FF443DC005FDF15 /* BekonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BekonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABEB8BD1FF443DC005FDF15 /* BekonyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BekonyTests.swift; sourceTree = "<group>"; };
+		CABEB8BF1FF443DC005FDF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABEB8C41FF443DC005FDF15 /* BekonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BekonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABEB8C81FF443DC005FDF15 /* BekonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BekonyUITests.swift; sourceTree = "<group>"; };
+		CABEB8CA1FF443DC005FDF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABEB8D71FF44F15005FDF15 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = "../../../../Downloads/iOS-SDK-master/EstimoteSDK/EstimoteSDK.framework"; sourceTree = "<group>"; };
+		CABEB8D91FF44F3C005FDF15 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CABEB8DB1FF44F46005FDF15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CABEB8DD1FF44F50005FDF15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CABEB8DF1FF44F59005FDF15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CABEB8E11FFD7ED4005FDF15 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABEB8A21FF443DB005FDF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABEB8E01FF44F59005FDF15 /* Foundation.framework in Frameworks */,
+				CABEB8DE1FF44F50005FDF15 /* UIKit.framework in Frameworks */,
+				CABEB8DC1FF44F46005FDF15 /* CoreGraphics.framework in Frameworks */,
+				CABEB8DA1FF44F3D005FDF15 /* SystemConfiguration.framework in Frameworks */,
+				CABEB8D81FF44F15005FDF15 /* EstimoteSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABEB8B61FF443DC005FDF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABEB8C11FF443DC005FDF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABEB89C1FF443DB005FDF15 = {
+			isa = PBXGroup;
+			children = (
+				CABEB8A71FF443DB005FDF15 /* Bekony */,
+				CABEB8BC1FF443DC005FDF15 /* BekonyTests */,
+				CABEB8C71FF443DC005FDF15 /* BekonyUITests */,
+				CABEB8A61FF443DB005FDF15 /* Products */,
+				CABEB8D61FF44F15005FDF15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CABEB8A61FF443DB005FDF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB8A51FF443DB005FDF15 /* Bekony.app */,
+				CABEB8B91FF443DC005FDF15 /* BekonyTests.xctest */,
+				CABEB8C41FF443DC005FDF15 /* BekonyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABEB8A71FF443DB005FDF15 /* Bekony */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB8A81FF443DB005FDF15 /* AppDelegate.swift */,
+				CABEB8AA1FF443DB005FDF15 /* ViewController.swift */,
+				CABEB8AC1FF443DB005FDF15 /* Main.storyboard */,
+				CABEB8AF1FF443DC005FDF15 /* Assets.xcassets */,
+				CABEB8B11FF443DC005FDF15 /* LaunchScreen.storyboard */,
+				CABEB8B41FF443DC005FDF15 /* Info.plist */,
+				CABEB8E11FFD7ED4005FDF15 /* ObjCBridge.h */,
+			);
+			path = Bekony;
+			sourceTree = "<group>";
+		};
+		CABEB8BC1FF443DC005FDF15 /* BekonyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB8BD1FF443DC005FDF15 /* BekonyTests.swift */,
+				CABEB8BF1FF443DC005FDF15 /* Info.plist */,
+			);
+			path = BekonyTests;
+			sourceTree = "<group>";
+		};
+		CABEB8C71FF443DC005FDF15 /* BekonyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB8C81FF443DC005FDF15 /* BekonyUITests.swift */,
+				CABEB8CA1FF443DC005FDF15 /* Info.plist */,
+			);
+			path = BekonyUITests;
+			sourceTree = "<group>";
+		};
+		CABEB8D61FF44F15005FDF15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB8DF1FF44F59005FDF15 /* Foundation.framework */,
+				CABEB8DD1FF44F50005FDF15 /* UIKit.framework */,
+				CABEB8DB1FF44F46005FDF15 /* CoreGraphics.framework */,
+				CABEB8D91FF44F3C005FDF15 /* SystemConfiguration.framework */,
+				CABEB8D71FF44F15005FDF15 /* EstimoteSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABEB8A41FF443DB005FDF15 /* Bekony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABEB8CD1FF443DC005FDF15 /* Build configuration list for PBXNativeTarget "Bekony" */;
+			buildPhases = (
+				CABEB8A11FF443DB005FDF15 /* Sources */,
+				CABEB8A21FF443DB005FDF15 /* Frameworks */,
+				CABEB8A31FF443DB005FDF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bekony;
+			productName = Bekony;
+			productReference = CABEB8A51FF443DB005FDF15 /* Bekony.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABEB8B81FF443DC005FDF15 /* BekonyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABEB8D01FF443DC005FDF15 /* Build configuration list for PBXNativeTarget "BekonyTests" */;
+			buildPhases = (
+				CABEB8B51FF443DC005FDF15 /* Sources */,
+				CABEB8B61FF443DC005FDF15 /* Frameworks */,
+				CABEB8B71FF443DC005FDF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABEB8BB1FF443DC005FDF15 /* PBXTargetDependency */,
+			);
+			name = BekonyTests;
+			productName = BekonyTests;
+			productReference = CABEB8B91FF443DC005FDF15 /* BekonyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABEB8C31FF443DC005FDF15 /* BekonyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABEB8D31FF443DC005FDF15 /* Build configuration list for PBXNativeTarget "BekonyUITests" */;
+			buildPhases = (
+				CABEB8C01FF443DC005FDF15 /* Sources */,
+				CABEB8C11FF443DC005FDF15 /* Frameworks */,
+				CABEB8C21FF443DC005FDF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABEB8C61FF443DC005FDF15 /* PBXTargetDependency */,
+			);
+			name = BekonyUITests;
+			productName = BekonyUITests;
+			productReference = CABEB8C41FF443DC005FDF15 /* BekonyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABEB89D1FF443DB005FDF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = IPG;
+				TargetAttributes = {
+					CABEB8A41FF443DB005FDF15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CABEB8B81FF443DC005FDF15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABEB8A41FF443DB005FDF15;
+					};
+					CABEB8C31FF443DC005FDF15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABEB8A41FF443DB005FDF15;
+					};
+				};
+			};
+			buildConfigurationList = CABEB8A01FF443DB005FDF15 /* Build configuration list for PBXProject "Bekony" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABEB89C1FF443DB005FDF15;
+			productRefGroup = CABEB8A61FF443DB005FDF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABEB8A41FF443DB005FDF15 /* Bekony */,
+				CABEB8B81FF443DC005FDF15 /* BekonyTests */,
+				CABEB8C31FF443DC005FDF15 /* BekonyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABEB8A31FF443DB005FDF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABEB8B31FF443DC005FDF15 /* LaunchScreen.storyboard in Resources */,
+				CABEB8B01FF443DC005FDF15 /* Assets.xcassets in Resources */,
+				CABEB8AE1FF443DB005FDF15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABEB8B71FF443DC005FDF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABEB8C21FF443DC005FDF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABEB8A11FF443DB005FDF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABEB8AB1FF443DB005FDF15 /* ViewController.swift in Sources */,
+				CABEB8A91FF443DB005FDF15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABEB8B51FF443DC005FDF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABEB8BE1FF443DC005FDF15 /* BekonyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABEB8C01FF443DC005FDF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABEB8C91FF443DC005FDF15 /* BekonyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABEB8BB1FF443DC005FDF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABEB8A41FF443DB005FDF15 /* Bekony */;
+			targetProxy = CABEB8BA1FF443DC005FDF15 /* PBXContainerItemProxy */;
+		};
+		CABEB8C61FF443DC005FDF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABEB8A41FF443DB005FDF15 /* Bekony */;
+			targetProxy = CABEB8C51FF443DC005FDF15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABEB8AC1FF443DB005FDF15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABEB8AD1FF443DB005FDF15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABEB8B11FF443DC005FDF15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABEB8B21FF443DC005FDF15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABEB8CB1FF443DC005FDF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CABEB8CC1FF443DC005FDF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABEB8CE1FF443DC005FDF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bekony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbww.ipgbeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CABEB8CF1FF443DC005FDF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bekony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbww.ipgbeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CABEB8D11FF443DC005FDF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BekonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konie.BekonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bekony.app/Bekony";
+			};
+			name = Debug;
+		};
+		CABEB8D21FF443DC005FDF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BekonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konie.BekonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bekony.app/Bekony";
+			};
+			name = Release;
+		};
+		CABEB8D41FF443DC005FDF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BekonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konie.BekonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bekony;
+			};
+			name = Debug;
+		};
+		CABEB8D51FF443DC005FDF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BekonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konie.BekonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bekony;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABEB8A01FF443DB005FDF15 /* Build configuration list for PBXProject "Bekony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABEB8CB1FF443DC005FDF15 /* Debug */,
+				CABEB8CC1FF443DC005FDF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABEB8CD1FF443DC005FDF15 /* Build configuration list for PBXNativeTarget "Bekony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABEB8CE1FF443DC005FDF15 /* Debug */,
+				CABEB8CF1FF443DC005FDF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABEB8D01FF443DC005FDF15 /* Build configuration list for PBXNativeTarget "BekonyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABEB8D11FF443DC005FDF15 /* Debug */,
+				CABEB8D21FF443DC005FDF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABEB8D31FF443DC005FDF15 /* Build configuration list for PBXNativeTarget "BekonyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABEB8D41FF443DC005FDF15 /* Debug */,
+				CABEB8D51FF443DC005FDF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABEB89D1FF443DB005FDF15 /* Project object */;
+}
