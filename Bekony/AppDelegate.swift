@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, ESTMonitoringV2ManagerDelegate {
@@ -45,13 +46,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ESTMonitoringV2ManagerDel
                            didEnterDesiredRangeOfBeaconWithIdentifier identifier: String) {
         print("didEnter range of beacon \(identifier)")
         
-        showNotification("Hello world", "Looks like you're near a beacon.")
+        showNotification(title: "Hello world", body: "Looks like you're near a beacon.")
     }
     func monitoringManager(_ manager: ESTMonitoringV2Manager,
                            didExitDesiredRangeOfBeaconWithIdentifier identifier: String) {
         print("didExit range of beacon \(identifier)")
         
-        showNotification("Goodbye world", "You left the proximity of a beacon.")
+        showNotification(title: "Goodbye world", body: "You left the proximity of a beacon.")
     }
     func monitoringManager(_ manager: ESTMonitoringV2Manager,
                            didDetermineInitialState state: ESTMonitoringState,
